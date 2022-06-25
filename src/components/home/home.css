@@ -9,20 +9,20 @@
     align-items: center;
 }
 
-.home-container .logo{
+.home-container .logo {
     position: inherit;
-    margin-top: -50px;
-    height: 520px;
-    width: 520px;
+    margin-top: -70px;
+    height: 550px;
+    width: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    user-select: none;
 }
 
+
 .home-container .logo .main-img {
-    position: absolute;
+    position: relative;
     height: 300px;
     width: 300px;
     border-radius: 50%;
@@ -37,7 +37,7 @@
     animation: spin 8s linear 1s infinite;
 }
 
-@keyframes spin{
+@keyframes spin {
     to{
         transform: rotate(360deg);
     }
@@ -61,7 +61,7 @@
 }
 
 .home-container .logo .main-img.active .circle:nth-child(1) {
-    background:url(../props/html.png);
+    background:url(../props/c.png);
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -69,7 +69,7 @@
 }
 
 .home-container .logo .main-img.active .circle:nth-child(2) {
-    background:url(../props/css.png);
+    background:url(../props/csharp.png);
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -77,15 +77,15 @@
 }
 
 .home-container .logo .main-img.active .circle:nth-child(3) {
-    background:url(../props/js.png);
+    background:url(../props/java.png);
     background-size: cover;
     background-position: center;
     position: absolute;
-    transform: translate(210%);
+    transform: translateY(210%);
 }
 
 .home-container .logo .main-img.active .circle:nth-child(4) {
-    background:url(../props/bootstrap.png);
+    background:url(../props/html.png);
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -93,7 +93,7 @@
 }
 
 .home-container .logo .main-img.active .circle:nth-child(5) {
-    background:url(../props/react.png);
+    background:url(../props/css.png);
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -101,7 +101,7 @@
 }
 
 .home-container .logo .main-img.active .circle:nth-child(6) {
-    background:url(../props/kotlin.png);
+    background:url(../props/js.png);
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -109,7 +109,7 @@
 }
 
 .home-container .logo .main-img.active .circle:nth-child(7) {
-    background:url(../props/cpp.png);
+    background:url(../props/react.png);
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -117,14 +117,14 @@
 }
 
 .home-container .logo .main-img.active .circle:nth-child(8) {
-    background:url(../props/csharp.png);
+    background:url(../props/git.png);
     background-size: cover;
     background-position: center;
     position: absolute;
     transform: translate(-150%, -150%);
 }
 
-.home-container img{
+.home-container img {
     position: absolute;
     height: 300px;
     width: 300px;
@@ -152,7 +152,7 @@
     margin-top: 50px;
 }
 
-.home-container h2 span{
+.home-container h2 span {
     font-size: 25px;
     opacity: 0.8;
     padding-bottom: 5px;
@@ -160,7 +160,7 @@
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.home-container h2 p{
+.home-container h2 p {
     font-size: 20px;
     opacity: 1;
     font-weight: 100;

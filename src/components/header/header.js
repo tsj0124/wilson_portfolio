@@ -1,4 +1,3 @@
-import React, { Fragment } from "react";
 import "./header.css";
 
 function Header() {
@@ -8,8 +7,7 @@ function Header() {
 				<p>
 					<span>I</span>'m
 				</p>
-				Wilson
-				<h2>Front-End Web Developer</h2>
+				Wilson Ting
 			</h3>
 		</div>
 	);

@@ -4,10 +4,15 @@ import Buttons from "../button/button";
 import { BsMouse } from "react-icons/bs";
 
 function Home() {
+	const handleClick = (e) => {
+		e.currentTarget.classList.toggle("active");
+	};
 	return (
 		<div id="home" className="container home-container">
 			<div className="logo">
-				<div className="main-img">
+				<img src={img} alt="" />
+
+				<div className="main-img" onClick={handleClick}>
 					<span className="circle"></span>
 					<span className="circle"></span>
 					<span className="circle"></span>
@@ -17,7 +22,6 @@ function Home() {
 					<span className="circle"></span>
 					<span className="circle"></span>
 				</div>
-				<img src={img} alt="" />
 			</div>
 
 			<a href="#footer" className="scroll-down">
@@ -26,7 +30,7 @@ function Home() {
 				<BsMouse className="scroll" />
 				<hr />
 			</a>
-			<h2>
+			{/* <h2>
 				<span>About Me</span> <br />
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero modi eos
@@ -35,14 +39,9 @@ function Home() {
 					praesentium distinctio!
 				</p>
 			</h2>
-			<Buttons />
+			<Buttons /> */}
 		</div>
 	);
 }
-const toggle = document.querySelector(".main-img");
-if (toggle) {
-	toggle.addEventListener("click", () => {
-		toggle.classList.toggle("active");
-	});
-}
+
 export default Home;

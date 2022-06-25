@@ -2,9 +2,21 @@ import "./qualification.css";
 
 const Qualification = () => {
 	return (
-		<div>
-			<span className="quali-text">My Qualifications</span>
-			<div className="qualifcations-container">
+		<div className="h2">
+			<span className="quali-text">Skills & Technologies</span>
+			<div className="qualifications-container">
+				<div className="qualification">
+					<div className="content c"></div>
+					<h1>c</h1>
+				</div>
+				<div className="qualification">
+					<div className="content c-sharp"></div>
+					<h1>c-sharp</h1>
+				</div>
+				<div className="qualification">
+					<div className="content java"></div>
+					<h1>java</h1>
+				</div>
 				<div className="qualification">
 					<div className="content html"></div>
 					<h1>html</h1>
@@ -18,24 +30,12 @@ const Qualification = () => {
 					<h1>javascript</h1>
 				</div>
 				<div className="qualification">
-					<div className="content bootstrap"></div>
-					<h1>bootstrap</h1>
-				</div>
-				<div className="qualification">
 					<div className="content react"></div>
 					<h1>react</h1>
 				</div>
 				<div className="qualification">
-					<div className="content c-plus-plus"></div>
-					<h1>c-plus-plus</h1>
-				</div>
-				<div className="qualification">
-					<div className="content c-sharp"></div>
-					<h1>c-sharp</h1>
-				</div>
-				<div className="qualification">
-					<div className="content kotlin"></div>
-					<h1>kotlin</h1>
+					<div className="content git"></div>
+					<h1>git</h1>
 				</div>
 			</div>
 		</div>

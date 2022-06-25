@@ -12,16 +12,16 @@ function Navbar() {
 				<AiOutlineHome className="icon active-nav" />
 			</a>
 			<a href="#about">
-				<AiOutlineUser className="icon" />
+				<AiOutlineUser className="icon active-nav" />
 			</a>
 			<a href="#members">
-				<TiGroupOutline className="icon" />
+				<TiGroupOutline className="icon active-nav" />
 			</a>
 			<a href="#contact">
-				<BiMessageRoundedDots className="icon" />
+				<BiMessageRoundedDots className="icon active-nav" />
 			</a>
 			<a href="#footer">
-				<BsArrowDownCircle className="icon" />
+				<BsArrowDownCircle className="icon active-nav" />
 			</a>
 		</div>
 	);
