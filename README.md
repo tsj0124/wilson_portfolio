@@ -1,6 +1,6 @@
 # My portfolio learning project!
 
-This portfolio showcases my learning journey.
+Portfolio Website for Learning Showcases.
 
 # Released Version 1.0
 
