@@ -5,9 +5,10 @@ function Header() {
 		<div id="home" className="container header-container">
 			<h3>
 				<p>
-					<span>I</span>'m
+					I <span>'</span>m
 				</p>
-				Wilson Ting
+				Wilson
+				<h2>Portfolio website</h2>
 			</h3>
 		</div>
 	);

@@ -55,6 +55,7 @@
     font-size: 21px;
     font-weight: 500;
     display: flex;
+    justify-content: start;
     flex-direction: column;
     text-transform: capitalize;
     font-family: 'Open Sans';

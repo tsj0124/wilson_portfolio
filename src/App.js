@@ -2,9 +2,10 @@ import Header from "./components/header/header";
 import Navbar from "./components/nav/nav";
 import Home from "./components/home/home";
 import About from "./components/about/about";
-import Members from "./components/members/members";
+import Experiences from "./components/experiences/experiences";
 import Contact from "./components/contact/contact";
 import Footer from "./components/footer/footer";
+import Certificates from "./components/certificates/certificates";
 
 function App() {
 	return (
@@ -15,7 +16,8 @@ function App() {
 			<Navbar />
 			<Home />
 			<About />
-			<Members />
+			<Experiences />
+			<Certificates />
 			<Contact />
 			<Footer />
 		</div>

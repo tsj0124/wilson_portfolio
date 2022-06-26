@@ -1,6 +1,5 @@
 import "./home.css";
 import img from "../props/wilson.jpg";
-import Buttons from "../button/button";
 import { BsMouse } from "react-icons/bs";
 
 function Home() {
@@ -8,7 +7,7 @@ function Home() {
 		e.currentTarget.classList.toggle("active");
 	};
 	return (
-		<div id="home" className="container home-container">
+		<div className="container home-container">
 			<div className="logo">
 				<img src={img} alt="" />
 

@@ -11,18 +11,19 @@
 
 .home-container .logo {
     position: inherit;
-    margin-top: -70px;
-    height: 550px;
-    width: 550px;
+    height: 520px;
+    width: 520px;
+    top: -100px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    user-select: none;
 }
 
 
 .home-container .logo .main-img {
-    position: relative;
+    position: absolute;
     height: 300px;
     width: 300px;
     border-radius: 50%;

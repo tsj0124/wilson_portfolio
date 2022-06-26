@@ -12,13 +12,13 @@
 }
 
 body {
-    background: rgb(2, 2, 26);
+    background: rgb(11, 37, 33);
     min-height: 100vh;
     font-family: 'Inter', sans-serif;
     animation: move 1s linear infinite forwards;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -26,7 +26,7 @@ html{
     width: 0;
 }
 
-:root{
+:root {
     --color-pri: rgb(82, 188, 250);
     --color-pri-light: rgba(82, 188, 250, 0.445);
     --color-sec: rgb(172, 17, 233);

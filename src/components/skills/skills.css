@@ -1,11 +1,11 @@
-.quali-text {  
+.skills-text {  
     display: flex;  
     justify-content: center;
     align-items: center;
     font-size: 20px;
 }
 
-.qualifications-container {
+.skills-container {
     position: relative;
     display: flex;
     right: 150px;
@@ -18,36 +18,38 @@
     margin-top: 15px;
     padding: 15px;
     user-select: none;
-    border: 2px solid red;
+    border: 2px solid rgb(87, 101, 101);
     scrollbar-color: white;
     border-radius: 7px;
-    background-color: rgba(37, 37, 87, 0.318);;
+    background-color: transparent; 
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     height: 10px;
-    background: red;
+    background: rgb(57, 53, 55);
 
 }
-::-webkit-scrollbar-thumb:horizontal{
-    background: rgba(255, 255, 255, 1);
+::-webkit-scrollbar-thumb:horizontal {
+    background: rgb(187, 181, 183);
     border-radius: 25px;
 }
 
-.qualifications-container .qualification {
+.skills-container .skill {
     position: relative;
     height: 200px;
     min-width: 20%;
     background: rgb(9, 6, 31);
     border-radius: 20px;
+    left: 12px;
     margin: 0 20px 0 0;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    background-color: transparent;
 }
 
-.qualifications-container .qualification .content {
+.skills-container .skill .content {
     height: 85%;
     width: 90%;
     border-radius: 15px;
@@ -56,54 +58,54 @@
     background-position: center;
 }
 
-.qualifications-container .qualification h1 {
+.skills-container .skill h1 {
     font-size: 20px;
     text-transform: uppercase;
     margin-top: 20px;
 }
 
-.qualifications-container .qualification .content.c {
+.skills-container .skill .content.c {
     background: url(../props/c.jpg);
     background-position: center;
     background-size: 150px;
 }
 
-.qualifications-container .qualification .content.java {
+.skills-container .skill .content.java {
     background: url(../props/java.png);
     background-position: center;
     background-size: 135px;
 }
 
-.qualifications-container .qualification .content.c-sharp {
+.skills-container .skill .content.c-sharp {
     background: url(../props/csharp.png);
     background-position: center;
     background-size: 200px;
 }
 
-.qualifications-container .qualification .content.html {
+.skills-container .skill .content.html {
     background: url(../props/html.png);
     background-position: center;
     background-size: 150px;
 }
-.qualifications-container .qualification .content.css {
+.skills-container .skill .content.css {
     background: url(../props/css.png);
     background-position: center;
     background-size: 150px; 
 }
 
-.qualifications-container .qualification .content.javascript {
+.skills-container .skill .content.javascript {
     background: url(../props/js.png);
     background-position: center;
     background-size: 165px;
 }
 
-.qualifications-container .qualification .content.react {
+.skills-container .skill .content.react {
     background: url(../props/react.png);
     background-position: center;
     background-size: 163px;
 }
 
-.qualifications-container .qualification .content.git {
+.skills-container .skill .content.git {
     background: url(../props/git.png);
     background-position: center;
     background-size: 170px;

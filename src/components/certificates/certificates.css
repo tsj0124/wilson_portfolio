@@ -1,0 +1,153 @@
+.container .technologies-container {
+    position: relative;
+    display: block;
+    justify-content: start;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin-top: 100px;
+    padding: 50px;
+    overflow-x: hidden;
+    backdrop-filter: blur(20px);
+}
+
+div .technologies-container {
+    position: relative;
+    bottom: 100px;
+}
+
+h1.name {
+    text-decoration: underline;
+}
+
+.certificates-txt {
+    font-size: 20px;
+    top: 10px;
+    font-weight: 100;
+}
+
+.certificates-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin-top: 100px;
+    bottom: 50px;
+
+}
+
+
+.certificates-container .certificates {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.014);
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.certificates-container .certificates-1 .certificates-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+    background: url(../props/uts.png); 
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+}
+
+.certificates-container .certificates .certificates-info {
+    margin-left: 50px;
+    font-family: 'Open Sans Condensed';
+    max-width: 50%;
+}
+
+.certificates-container .certificates .certificates-info .name {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.certificates-container .certificates .certificates-info .position {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.certificates-container .certificates .certificates-info .about {
+    margin-top: 40px;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+.certificates-container .certificates .certificates-info .contact-certificates {
+    background: var(--color-sec-light);
+    padding: 17px 35px;
+    font-size: 18px;
+    margin-top: 100px;
+    border-radius: 50px;
+    position: absolute;
+    transform: .1s ease;
+}
+
+.certificates-container .certificates .certificates-info .contact-certificates span {
+    text-transform: capitalize;
+}
+
+.certificates-container .certificates .certificates-info .contact-certificates:hover {
+    background: transparent;
+    border: 2px solid var(--color-sec-light);
+}
+
+.about li {
+    text-align: justify
+}
+
+.achievements-txt {
+    font-size: 20px;
+    top: 10px;
+    font-weight: 100;
+}
+
+.achievements-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin-top: 100px;
+    bottom: 200px;
+}
+
+
+.achievements-container .achievements {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.014);
+    padding: 20px;
+    border-radius: 50px;
+}
+
+
+.achievements-container .achievements .achievements-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    font-family: 'Open Sans Condensed';
+    max-width: 50%;
+    text-align: justify;
+    gap:10px
+}
+
