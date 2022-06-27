@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.1960e1fc.css",
-    "main.js": "/static/js/main.15776442.js",
-    "static/media/js.png": "/static/media/js.cae65a84867e9d6ad7bf.png",
-    "static/media/react.png": "/static/media/react.6bcffb56bd0efaa47767.png",
-    "static/media/uts.png": "/static/media/uts.10a434e0479b913ad5b6.png",
-    "static/media/wilson.jpg": "/static/media/wilson.3d460d9611db41000acb.jpg",
-    "static/media/c.jpg": "/static/media/c.dc5b56e77d92aa1d01b5.jpg",
-    "static/media/keysight.png": "/static/media/keysight.2c592c9ee8f02671c36e.png",
-    "static/media/git.png": "/static/media/git.47a71333e9872f24ffe2.png",
-    "static/media/bosch.jpg": "/static/media/bosch.cd81ad9f9c5cbf7e4364.jpg",
-    "static/media/jabil.png": "/static/media/jabil.86cbd33bd64331fe8f32.png",
-    "static/media/c.png": "/static/media/c.1a1924f3457730cd9706.png",
-    "static/media/html.png": "/static/media/html.ff3cf75e3b7cbb4ea77c.png",
-    "index.html": "/index.html",
-    "main.1960e1fc.css.map": "/static/css/main.1960e1fc.css.map",
-    "main.15776442.js.map": "/static/js/main.15776442.js.map"
+    "main.css": "/wilson_portfolio/static/css/main.0c98c8d2.css",
+    "main.js": "/wilson_portfolio/static/js/main.339dc7e1.js",
+    "static/media/js.png": "/wilson_portfolio/static/media/js.cae65a84867e9d6ad7bf.png",
+    "static/media/react.png": "/wilson_portfolio/static/media/react.6bcffb56bd0efaa47767.png",
+    "static/media/uts.png": "/wilson_portfolio/static/media/uts.10a434e0479b913ad5b6.png",
+    "static/media/wilson.jpg": "/wilson_portfolio/static/media/wilson.3d460d9611db41000acb.jpg",
+    "static/media/c.jpg": "/wilson_portfolio/static/media/c.dc5b56e77d92aa1d01b5.jpg",
+    "static/media/keysight.png": "/wilson_portfolio/static/media/keysight.2c592c9ee8f02671c36e.png",
+    "static/media/git.png": "/wilson_portfolio/static/media/git.47a71333e9872f24ffe2.png",
+    "static/media/bosch.jpg": "/wilson_portfolio/static/media/bosch.cd81ad9f9c5cbf7e4364.jpg",
+    "static/media/jabil.png": "/wilson_portfolio/static/media/jabil.86cbd33bd64331fe8f32.png",
+    "static/media/c.png": "/wilson_portfolio/static/media/c.1a1924f3457730cd9706.png",
+    "static/media/html.png": "/wilson_portfolio/static/media/html.ff3cf75e3b7cbb4ea77c.png",
+    "index.html": "/wilson_portfolio/index.html",
+    "main.0c98c8d2.css.map": "/wilson_portfolio/static/css/main.0c98c8d2.css.map",
+    "main.339dc7e1.js.map": "/wilson_portfolio/static/js/main.339dc7e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.1960e1fc.css",
-    "static/js/main.15776442.js"
+    "static/css/main.0c98c8d2.css",
+    "static/js/main.339dc7e1.js"
   ]
 }
