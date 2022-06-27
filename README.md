@@ -1,2 +1,3 @@
-# wilson_portfolio
-Portfolio Website Version1.0
+# Portfolio Website Version1.0
+
+Portfolio Website for Learning Showcases
